@@ -1,0 +1,284 @@
+
+
+#welcomescreen-cookies{
+    position: fixed;
+    background-color: white;
+    color: gold;
+    height: 0;
+    width: 100%;
+   opacity: 0;
+
+} #welcomescreen-cookies button{
+    position: relative;
+    left: 40%;
+    top: 75%;
+}#welcomescreen-cookies button:hover{
+ cursor: pointer;
+}
+#whole{
+    background: linear-gradient(63deg, rgba(254,169,240,.5) 10%, rgba(169,234,56,.7) 80%);
+}
+#initialscreen{
+    
+    width: 100%;
+    height: 730px;
+  
+ }
+  
+#THLOGO{
+    height: 250px;
+    width: 250px;
+    border-radius: 250px;
+    background-color: rgb(93, 93, 140);
+    float: right;
+    
+   background-size: contain;
+    position: absolute;
+    right: 70px;
+    top: 35px;}
+#welcome{
+    position: relative;
+    left: 5%;
+    top: 20%;
+        width:700px;}
+
+.newcomers{
+    color: white;
+    font-family:serif;
+        font-size: 3rem;
+    text-decoration: underline;
+margin:0;
+}
+
+    #iniciosesion{
+   position: absolute;
+   right: 50px;
+   top: 530px;
+
+    }
+    #iniciosesion button{
+        background-color: #F2D030;
+        border-radius: 20px;
+        color: white;
+        border-color: #A9EA38;
+        width: 200px;
+        height: 50px;
+        font-size: 1.4rem;
+        }
+.justext{
+    font-size: 3rem;
+    display: inline-block;
+    color: white;
+
+}
+    #getaplan{
+        text-decoration: underline;
+        text-shadow: greenyellow;
+        text-transform: capitalize;
+    }
+/*Navigation bar*/
+#sections{
+    height: 50px;
+
+display: flex;
+flex-direction: row;
+border-radius: 30px;
+position: fixed;
+bottom:0%;
+left: 400px;
+width: 50%;
+justify-content: space-around;
+align-items: center;}
+.pag{
+
+width: 350px;
+text-align: center;}
+.pag:hover{
+    cursor: pointer;}
+#secondscreen{
+    height: 730px;
+    width: 100%;
+  
+  
+ 
+    color: aliceblue;}
+    #metas{
+        position: relative;
+        top: 80px;
+        left: 50px;
+        float: left;
+         width: 40%;}
+         #intro{
+            position: relative;
+         left: 900px;
+            top: 140px;
+            width: 35%;
+            font-size: 1.2rem;
+            font-family: italic;
+         }
+    #us{
+    width: 500px;
+    background-color: #FFEE32;
+    height: 300px;
+    }
+    
+
+#thirdscreen{
+height: 655px;
+width: 100%;}
+
+#apbox {
+    
+    position: relative;
+    width: 300px;
+    height: 530px;
+        top:0;  
+        display: inline-block;
+background-color: chartreuse;}
+#btnssec{
+    display: flex;
+    flex-direction: column;}
+.vidbtn{
+    height: 60px;
+    width: 40px;
+    
+}
+.vidbtnback{
+    background-image: url(/fotos/playbackground.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#video {
+    
+    position: relative;
+    width: 300px;
+    height: 530px;
+        top:20px;  
+        display: inline-block;
+background-color: #F2D030;
+left: 7 5px;
+display: flex;
+flex-direction: row;}
+#follow{
+    position: absolute;
+    left: 0px;
+    height: 30px;
+    top:    150px;
+    width: 340px;
+    color: rgb(206, 55, 0);
+    transform: rotate(0deg);
+ font-size: .9rem;}
+#linktotiktok{
+   
+        width: 300px;
+        height: 200px;
+   
+        position: absolute;
+        top: 1500px;
+        left: 400px;
+        transform: rotate(-10deg);
+        }
+#portadatiktok{
+    width: 500px;
+    background-image: url(/fotos/tiktok.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    top: 5%;
+    height: 100px;}
+.tipimg{
+    width: 18%;
+    height: 100%;
+    float: left;}
+.tip{
+    height: 13.7%;
+    width: 100%;
+    display: block;}
+#tips   { 
+    text-align: center;
+    width:300px;
+    height: 530px;
+    position: absolute;
+    top: 1500px;
+    left: 800px;
+}
+#fourthscreen{
+ 
+    height: 725px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;}
+#testimonios{
+    height: 725px;
+    text-align: center;
+    width:50%;}
+#recetas{
+    height: 725px;
+    text-align: center;
+    width:50%;  
+}
+.artimg{
+    width: 18%;
+    height: 100%;
+    float: left;}
+.article{
+    height: 13.7%;
+    width: 100%;}
+#Articles{ 
+    text-align: center;
+    width:50%;
+    height: 725px;
+   
+    display: inline-block;}
+#fifthscreen{
+    
+    height: 725px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;}
+   /*TIPS*/ 
+
+   #tipsDiv{
+    display: flex;  
+    flex-direction: row;
+    height: 38px;
+    position: fixed;
+    border-radius: 38px;
+    align-items: center;
+    left: 5px;
+    top: 30%;
+   }
+   #tipsimg{
+    border-radius: 38px;
+    height: 38px;
+    width: 38px;
+    background-repeat: no-repeat;
+   
+    background-image: url("/fotos/favicon.ico");
+    background-size: contain;
+    
+   }
+
+   #tipsText{
+    height: 20px;
+    color: white;
+    font-style: italic;
+    font-weight: 300;
+}
+#footer{
+    height:800px;
+    width: 99%;
+    position: absolute;
+    top: 2600px;
+    background: rgb(169,234,56);
+background: linear-gradient(-10deg, rgba(169,234,56,1) 25%, rgba(254,169,240,1) 75%);
+}
+a{
+    text-decoration: none;
+    color:white;
+    font-size: 2.3rem;
+}
+input:focus{
+    background-color: lightblue;
+
+}

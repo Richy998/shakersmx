@@ -1,0 +1,53 @@
+#sections{
+    height: 50px;
+    background-color: wheat;
+display: flex;
+flex-direction: row;
+position: fixed;
+bottom:0%;
+left: 0;
+width: 100%;
+justify-content: space-around;
+align-items: center;}
+.pag{
+
+width: 350px;
+text-align: center;}
+.pag:hover{
+    cursor: pointer;}
+    a{
+        text-decoration: none;
+        color:white;
+        font-size: 2.3rem;
+    }
+h1{
+    text-align: center;
+background-color: blueviolet;
+}
+.box{
+    height: 100px;
+    width: 60%;
+    display: inline-block;
+    background-color: aquamarine;
+}
+#game{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+#player2{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 500px;
+    position: absolute;
+    left: 65%;
+}
+#player1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 500px;
+    position: absolute;
+
+}
